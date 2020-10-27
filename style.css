@@ -1,0 +1,77 @@
+#wrapper {margin: 0 auto;
+		 width: 80%;
+         min-width: 960px;
+    max-width: 1200px;
+    background-color:blanchedalmond}
+    
+    
+#floatright {float: right;
+        margin: 15px;
+			 }
+
+nav { font-weight: bold;
+	 letter-spacing: 0.1em;
+     float: right;
+     width: 200px;
+	 }
+
+nav ul {list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+	  }
+
+nav a{
+	  background-color: #b3c7e6;
+	  border-bottom: 1px solid #ffffff;
+      text-decoration: none;
+      padding: 20px;
+      display: block;
+	  }
+
+nav a:link{color: #ffffff;}
+
+nav a:visited{color:#ddd9d9;}
+
+nav a:hover{color: #869dc7;
+            background-color: #ddd9d9;}
+
+body {background-color: blanchedalmond}
+
+h2 {font-family: cursive}
+
+h1 {text-align: center;}
+
+footer {position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;}
+
+#banner {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100px;
+  height: 80px;
+
+@media only screen and (max-width: 1024px) {
+    main {font-size: 90%; margin: 0px; padding-left: 2em;}
+    body {margin: 0px; padding: 0px; }
+    #wrapper {width: auto; min-width: 0px; margin: 0px;}
+    nav {float: none; padding: 0px; width: auto;}
+    nav li {display: inline-block;}
+    nav a {padding: 1em; font-size: 1.2em;}
+    nav ul {text-align: center; padding: 0px; margin: 0px;}
+    h1 {margin: 0px; font-size: 1.8em; line-height: 200%;}
+    footer {margin: 0px;}
+    
+@media only screen and (max-width: 768px) {
+    h1 {font-size: 1.5em; line-height: 120%;}
+    nav li {display: block;}
+    nav ul {text-align: left;}
+    nav a {display: block; font-size: 1em;
+            padding: 0.2em;
+            border-bottom: 1px solid #330000;}
+    main {padding-left: 1em;}
+    .category {text-shadow: none;}
